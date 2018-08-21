@@ -11,7 +11,7 @@ A repository to collect the solutions to all Competitive platform problems, only
     **SPLST\_LTIME62B.java**  
     
     Problem code, problem description and event code can be found on problem page. In case of practice question/ no event, event code should be NE : NO_EVENT. For example
-    **(PROBLEM_CODE)\_(EVENT_CODE).(FILE_TYPE)**
+    **(PROBLEM_CODE)\_NE.(FILE_TYPE)**
     
     **Platform Folders** :  
       HackerEarth 
