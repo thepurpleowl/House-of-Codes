@@ -14,10 +14,10 @@ A repository to collect the solutions to all Competitive platform problems, only
     **(PROBLEM_CODE)\_NE.(FILE_TYPE)**
     
     **Platform Folders** :  
-      HackerEarth 
+      HackerEarth    
       HackerRank   
       CodeChef    
       CodeForce    
-      SPOJ Online 
+      SPOJ  
       
   In case of new platform, try to get a code with first letters of two words or if in doubt contact.
