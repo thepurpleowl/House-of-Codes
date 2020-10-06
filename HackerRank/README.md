@@ -1,9 +1,10 @@
 # Link of problems to available solutions
 
-## C/C++
-- [Make It Anagram](https://www.hackerrank.com/challenges/make-it-anagram-mglines/problem)
-
 ## Python
-- [Hash Tables: Ice Cream Parlor](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem)
+- [Make It Anagram](https://www.hackerrank.com/challenges/make-it-anagram-mglines/problem)
 - [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game/problem)
+
+## C/C++
+- [Hash Tables: Ice Cream Parlor](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem)
+- [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
 - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
