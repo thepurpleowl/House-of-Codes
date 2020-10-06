@@ -19,3 +19,5 @@
 - [Mini-max sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
 - [Staircase](https://www.hackerrank.com/challenges/staircase/problem)
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
+- [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
+- Day one of the 30 Days challenge
