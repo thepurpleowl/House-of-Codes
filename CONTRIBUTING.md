@@ -1,9 +1,10 @@
 # Contribution
 
-Contribution would be acceted only with following guidelines.
+PRs would be accepted only if the following guidelines are followed.
 
 1. Don't raise a PR with a solution if the competition with the problem is still going on.
-2. Make sure the problem haven't been solved yet. If it's already present, please don't add a duplicate.
+2. Make sure the problem haven't been solved yet. If it's already present, please don't add a duplicate.  
+   **Whenever you add a code in any subdirectory, update the README of that specific directory with the problem link.**
 3. If you think there is a mistake OR you've a better solution, create an issue, and it'll be assigned to you to work upon.
 4. Nomeclature of files should be as follows   
     **(PROBLEM_CODE)\_(EVENT_CODE).(FILE_TYPE)**
@@ -20,5 +21,6 @@ Contribution would be acceted only with following guidelines.
       CodeChef    
       CodeForce    
       SPOJ  
+      OpenKattis
       
   In case of new platform, try to get a code with first letters of two words or if in doubt contact.
