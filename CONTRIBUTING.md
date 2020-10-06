@@ -14,13 +14,12 @@ PRs would be accepted only if the following guidelines are followed.
     
     Problem code, problem description and event code can be found on problem page. In case of practice question/ no event, event code should be NE : NO_EVENT. For example
     **(PROBLEM_CODE)\_NE.(FILE_TYPE)**
-    
-    **Platform Folders** :  
-      HackerEarth    
-      HackerRank   
-      CodeChef    
-      CodeForce    
-      SPOJ  
-      OpenKattis
-      
-  In case of new platform, try to get a code with first letters of two words or if in doubt contact.
+5. Currently following Platform Folders are present.
+      - HackerEarth    
+      - HackerRank   
+      - CodeChef    
+      - CodeForce    
+      - SPOJ  
+      - OpenKattis  
+   In case of new platform, please add the platform name as an entry in CONTRIBUTING.md point 5 and create a new subdirectory with that platform name.
+   Please once check the repo directory structure, rest would be intuitive.
