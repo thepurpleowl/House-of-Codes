@@ -2,8 +2,8 @@
 
 # LeetCode
 
-### In this folder, there are algorithm problems taken from LeetCode and their solutions.
+## Link of problems to available solutions:
 
-#### First Bad Version Problem: https://leetcode.com/problems/first-bad-version/
+[First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
-#### Palindrome Number: https://leetcode.com/problems/palindrome-number/
+[Palindrome Number](https://leetcode.com/problems/palindrome-number/)
