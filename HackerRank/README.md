@@ -6,3 +6,4 @@
 ## Python
 - [Hash Tables: Ice Cream Parlor](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem)
 - [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game/problem)
+- [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
