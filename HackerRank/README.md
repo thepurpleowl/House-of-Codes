@@ -19,3 +19,4 @@
 - [Mini-max sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
 - [Staircase](https://www.hackerrank.com/challenges/staircase/problem)
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
+-[Running time of algorithms](https://www.hackerrank.com/challenges/runningtime/submissions/code/161983563)
