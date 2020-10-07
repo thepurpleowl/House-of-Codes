@@ -1,4 +1,4 @@
-Link:https://www.codechef.com/SEPT20B/problems/TREE2
+
 #include<bits/stdc++.h>
 using namespace std;
 
