@@ -1,4 +1,5 @@
 # House-of-Codes
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dae9e61df6e7470e91bf80441acb3eeb)](https://app.codacy.com/gh/thepurpleowl/House-of-Codes?utm_source=github.com&utm_medium=referral&utm_content=thepurpleowl/House-of-Codes&utm_campaign=Badge_Grade)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
