@@ -8,3 +8,7 @@
 - [Video Game](https://www.codechef.com/problems/ZCO14001)
 - [Chefina And Swaps](https://www.codechef.com/SEPT20B/problems/CHFNSWAP/)
 - [Chef and Icecream](https://www.codechef.com/JUNE20B/problems/CHFICRM/)
+- [Chef and Price Control](https://www.codechef.com/JUNE20B/problems/PRICECON/)
+- [Chef and String](https://www.codechef.com/JUNE20B/problems/XYSTR/)
+- [The Tom and Jerry Game!](https://www.codechef.com/JUNE20B/problems/EOEO/)
+- [Even Matrix](https://www.codechef.com/JUNE20B/problems/EVENM/)
