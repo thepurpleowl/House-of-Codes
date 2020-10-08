@@ -22,4 +22,4 @@
 - [Day one of the 30 Days challenge](https://www.hackerrank.com/challenges/30-data-types/problem)
 - [Running time of algorithms](https://www.hackerrank.com/challenges/runningtime/submissions/code/161983563)
 - [Angry professor](https://www.hackerrank.com/challenges/angry-professor/submissions/code/158372445)
-
+- [Beautiful day at the movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
