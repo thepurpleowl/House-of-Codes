@@ -13,6 +13,7 @@ https://github.com/Naereen/badges
 
 A repository to collect the solutions to all Competitive platform problems (along with the competition info), only to be used as reference/practice. Main objective of this beginner-freindly repo is to help beginners to collaborate and to get acquainted with the processes of opensource.
 
-For Contribution follow [CONTRIBUTING.md](https://github.com/thepurpleowl/House-of-Codes/blob/master/CONTRIBUTING.md)
+For Contribution follow [CONTRIBUTING.md](https://github.com/thepurpleowl/House-of-Codes/blob/master/CONTRIBUTING.md)  
+Code scan is maintained with [Codacy](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/dashboard?branch=master) !!
 
 **Please 'star' this repo to help other beginners like you to find this repo and complete Hacktoberfest challenge.**
