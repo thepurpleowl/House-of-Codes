@@ -4,7 +4,7 @@
     Link to the problem: https://www.codechef.com/COOK122B/problems/BOWLERS
     All test cases passed
  */
-package CodeChef;
+package codechef;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
