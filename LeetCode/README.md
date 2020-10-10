@@ -6,3 +6,6 @@
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)
+- [Maximum SubArray](https://leetcode.com/problems/maximum-subarray/)
+- [Happy Number](https://leetcode.com/problems/happy-number/)
+- [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
