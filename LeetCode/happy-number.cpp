@@ -3,13 +3,13 @@ public:
     bool isHappy(int n) {
         unordered_map<int, int> um;
         
-        int x=-1,y;
+        int y;
         vector<int> v;
         
         while(true){
             y = 0;
             v.clear();
-            x=n;
+            int x=n;
 
             if(um[n]!=0)
                 break;
