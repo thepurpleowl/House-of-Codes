@@ -19,7 +19,9 @@
 - [Staircase](https://www.hackerrank.com/challenges/staircase/problem)
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 - [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
-- [Day one of the 30 Days challenge](https://www.hackerrank.com/challenges/30-data-types/problem)
+- [Day one of the 30 Days challenge 1](https://www.hackerrank.com/challenges/30-data-types/problem)
+- [Day one of the 30 Days challenge 2](https://www.hackerrank.com/challenges/30-operators/problem)
 - [Running time of algorithms](https://www.hackerrank.com/challenges/runningtime/submissions/code/161983563)
 - [Angry professor](https://www.hackerrank.com/challenges/angry-professor/submissions/code/158372445)
+- [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem)
 
