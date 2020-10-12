@@ -8,3 +8,4 @@
 - [Video Game](https://www.codechef.com/problems/ZCO14001)
 - [Chefina And Swaps](https://www.codechef.com/SEPT20B/problems/CHFNSWAP/)
 - [Chef and Icecream](https://www.codechef.com/JUNE20B/problems/CHFICRM/)
+- [Bowling Strategy](https://www.codechef.com/COOK122B/problems/BOWLERS)
