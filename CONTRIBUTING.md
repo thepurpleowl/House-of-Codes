@@ -22,4 +22,5 @@ Currently following Platform Folders are present.
       - CodeChef    
       - CodeForce    
       - SPOJ  
-      - OpenKattis  
+      - OpenKattis 
+6. Code is maintained with [Codacy](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/dashboard?branch=master). Please check for [issues](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/issues/index?bid=20499451) raised by your PR and try to mitigate those. You can do it with same PR; no need to raise another PR.
