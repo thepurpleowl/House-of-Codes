@@ -11,6 +11,7 @@
 - [Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem)
 
 ## Java
+- [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)
 - [Java Comparator](https://www.hackerrank.com/challenges/java-comparator/problem)
 - [Compare The Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
 - [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
