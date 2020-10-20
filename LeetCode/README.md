@@ -10,3 +10,4 @@
 - [Happy Number](https://leetcode.com/problems/happy-number/)
 - [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [Merge Two sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [Rotate Image](https://leetcode.com/problems/rotate-image/)
