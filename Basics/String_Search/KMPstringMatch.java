@@ -57,7 +57,7 @@ public class KMPstringMatch {
 class kmpMain {
     public static void main(String[] args) throws FileNotFoundException {
         String T, P ;
-        Scanner sc = new Scanner("banana") ;
+        Scanner sc = new Scanner("na\nbanana") ;
 
         P = sc.nextLine() ;
         T = sc.nextLine() ;
