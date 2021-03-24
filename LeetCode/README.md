@@ -10,3 +10,4 @@
 - [Happy Number](https://leetcode.com/problems/happy-number/)
 - [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [3Sum](https://leetcode.com/problems/3sum/)
+- [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)

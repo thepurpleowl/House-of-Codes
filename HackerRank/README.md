@@ -9,6 +9,7 @@
 - [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
 - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
 - [Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem)
+- [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)
 
 ## Java
 - [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)
