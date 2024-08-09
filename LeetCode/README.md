@@ -9,6 +9,7 @@
 - [Happy Number](https://leetcode.com/problems/happy-number/)
 - [Longest Substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [Maximum SubArray](https://leetcode.com/problems/maximum-subarray/)
+- [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)
 - [Merge Two sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 - [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)
