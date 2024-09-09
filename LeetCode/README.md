@@ -8,6 +8,8 @@
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [Count Bits](https://leetcode.com/problems/counting-bits/)
 - [First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [Find all Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- [Fruit into Basket](https://leetcode.com/problems/fruit-into-baskets/)
 - [Happy Number](https://leetcode.com/problems/happy-number/)
 - [Longest Substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [Maximum SubArray](https://leetcode.com/problems/maximum-subarray/)
