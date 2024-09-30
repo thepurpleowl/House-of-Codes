@@ -23,6 +23,7 @@
 - [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 - [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)
 - [Missing Number](https://leetcode.com/problems/missing-number)
+- [Next Permutation](https://leetcode.com/problems/next-permutation)
 - [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
