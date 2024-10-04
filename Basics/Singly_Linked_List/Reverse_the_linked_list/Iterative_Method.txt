@@ -1,0 +1,19 @@
+Iterative Method (For reversing thr linked list) 
+
+	Step 1: Initialize three pointers:
+
+		- prev = null: This will point to the previous node.
+		- current = head: This will point to the current node.
+		- next = null: This will store the next node temporarily.
+
+	Step 2: Traverse the list using current:
+
+		- While current != null:
+		- Set next = current.next to store the next node.
+		- Reverse the link by pointing current.next to prev.
+		- Move the prev pointer to the current node (prev = current).
+		- Move the current pointer to the next node (current = next).
+
+	Step 3: After the loop ends, set head = prev (the last non-null node is now the new head of the reversed list).
+
+	Step 4: End.

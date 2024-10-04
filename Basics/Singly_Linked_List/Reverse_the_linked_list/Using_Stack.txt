@@ -1,0 +1,19 @@
+Using Stack (Auxiliary Data Structure)
+
+	Step 1: Initialize an empty stack.
+
+		Create a stack to store the nodes temporarily.
+
+	Step 2: Traverse the list and push each node onto the stack:
+
+		- Set current = head and while current != null, push each node onto the stack.
+		- Move the current pointer to the next node.
+
+	Step 3: Pop nodes from the stack and reassemble the list:
+
+		- Pop the top node from the stack and set it as the new head of the reversed list.
+		- Keep popping nodes from the stack and link them in reverse order by setting current.next to the next popped node.
+
+	Step 4: Set the next of the last node to null to mark the end of the reversed list.
+
+	Step 5: End.

@@ -1,0 +1,30 @@
+Insert a Node at a Given Position:- 
+
+	Step 1: Create a new node with the given data.
+		newNode = new Node(data)
+	Step 2: If the position is 1 (i.e., inserting at the head):
+
+		- Set the next of the new node to the current head.
+		- newNode.next = head
+		- Update the head to the new node.
+		- head = newNode
+		- Return.
+
+	Step 3: If the position is greater than 1, traverse the list to the node just before the desired position.
+
+		- Initialize current = head
+		- Initialize count = 1 (to track the position)
+		- While current != null and count < position - 1:
+		- Move to the next node (current = current.next)
+		- Increment the count (count++)
+
+	Step 4: If the desired position is valid (i.e., current is not null):
+
+		- Set the next of the new node to current.next.
+		- newNode.next = current.next
+		- Set current.next to the new node.
+		- current.next = newNode
+
+	Step 5: If the position is invalid (i.e., the position is beyond the length of the list), return an error or handle it accordingly.
+
+	Step 6: End.

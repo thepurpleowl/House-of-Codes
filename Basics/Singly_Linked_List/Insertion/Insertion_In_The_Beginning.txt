@@ -1,0 +1,9 @@
+Algorithm for Insert at the Beginning in Singly Linked List:
+
+	Step 1: Create a new node with the given data.
+		newNode = new Node(data)
+	Step 2: Set the next pointer of the new node to the current head.
+		newNode.next = head
+	Step 3: Update the head to point to the new node.
+		head = newNode
+	Step 4: End.

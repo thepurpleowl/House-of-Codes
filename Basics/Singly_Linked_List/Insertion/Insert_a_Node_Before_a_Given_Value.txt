@@ -1,0 +1,30 @@
+ Insert a Node Before a Given Value:-
+
+	Step 1: Create a new node with the given data.
+
+		newNode = new Node(data)
+
+	Step 2: If the list is empty, return an error or handle accordingly.
+
+	Step 3: If the targetValue is at the head (i.e., head.data == targetValue):
+
+		-Set the next of the new node to the current head.
+		-newNode.next = head
+		-Update the head to be the new node.
+		-head = newNode
+
+	Step 4: If targetValue is not at the head, traverse the list to find the node just before the node with targetValue.
+
+		current = head
+		while (current.next != null and current.next.data != targetValue): move to the next node.
+
+	Step 5: If the node with targetValue is found:
+
+		-Set the next of the new node to current.next.
+		-newNode.next = current.next
+		-Set the next of current to the new node.
+		-current.next = newNode
+
+	Step 6: If the node with targetValue is not found, return an error or handle accordingly.
+
+	Step 7:End

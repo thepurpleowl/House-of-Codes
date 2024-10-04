@@ -1,0 +1,13 @@
+Delete a Node from the Beginning of a Singly Linked List:-
+
+	Step 1: Check if the list is empty (i.e., head == null)
+
+		If the list is empty, return an error or handle accordingly.
+
+	Step 2: Set the head to point to the second node.
+
+		head = head.next
+
+	Step 3: The original head node is now deleted by garbage collection (in languages like Java or Python).
+
+	Step 4:End.
