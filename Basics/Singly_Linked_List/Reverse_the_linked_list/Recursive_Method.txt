@@ -1,0 +1,19 @@
+Recursive Method:-
+
+	Step 1: Define a base case for recursion:
+
+		If the list is empty (head == null) or has only one node (head.next == null), return the head as the reversed list.
+	Step 2: Recursively reverse the rest of the list:
+
+		- Call the function reverseList(head.next) to reverse all nodes after the head.
+		- Let the result of the recursive call be reversedRest.
+
+	Step 3: Once you have reversed the rest of the list:
+
+		- Set head.next.next = head to reverse the current node's link.
+		- Set head.next = null to make the current node the new tail.
+
+	Step 4: Return reversedRest as the new head of the reversed list.
+
+	Step 5: End.
+

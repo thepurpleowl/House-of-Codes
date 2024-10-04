@@ -1,0 +1,14 @@
+Insert a Node at the End: 
+
+	Step 1: Create a new node with the given data.
+		newNode = new Node(data)
+	Step 2: If the list is empty (i.e., head == null):
+		Set the new node as the head of the list.
+		head = newNode
+	Step 3: If the list is not empty:
+		Traverse the list until the last node (i.e., where current.next == null).
+		current = head
+		while (current.next != null): move to the next node.
+	Step 4: Set the next of the last node to the new node.
+		current.next = newNode
+	Step 5: End.

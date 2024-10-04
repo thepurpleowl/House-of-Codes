@@ -1,0 +1,22 @@
+Approach: Two-pointer (Floyd's Tortoise and Hare Algorithm)
+
+	Step 1: Initialize two pointers:
+
+		- slow = head: This pointer will move one step at a time (tortoise).
+		- fast = head: This pointer will move two steps at a time (hare).
+
+	Step 2: Traverse the list:
+
+		- While fast != null and fast.next != null:
+		- Move slow one step forward: slow = slow.next.
+		- Move fast two steps forward: fast = fast.next.next.
+
+	Step 3: Check if the pointers meet:
+
+		- If slow == fast, a cycle exists in the list.
+		- If the fast pointer reaches null or fast.next == null, then the list does not contain a cycle.
+ 
+	Step 4: Return the result:
+
+		- If a cycle is detected, return true.
+		- If no cycle is detected, return false.

@@ -1,0 +1,16 @@
+Searching for a Node in a Singly Linked List:- 
+
+	Step 1: Initialize the current pointer.
+
+		Set current = head to start at the head of the list.
+
+	Step 2: Traverse the list.
+
+		- While current != null:
+		- Check if the current node contains the value (current.data == targetValue).
+		- If true, return the current node (or its position depending on implementation).
+		- Otherwise, move to the next node (current = current.next).
+
+	Step 3: If the loop finishes and the value is not found:
+
+		Return null or indicate that the value was not found.

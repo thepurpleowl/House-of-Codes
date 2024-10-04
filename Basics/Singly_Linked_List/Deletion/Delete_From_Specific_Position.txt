@@ -1,0 +1,15 @@
+Delete a Node from a Specific Position in a Singly Linked List:- 
+	Step 1: Check if the list is empty (i.e., head == null).
+
+		If the list is empty, return an error or handle accordingly.
+	Step 2: If the position is 1, delete the head node:
+
+		Set head = head.next.
+	Step 3: If the position is greater than 1:
+
+		- Traverse the list to find the node just before the desired position.
+		- current = head and move until position - 1.
+	Step 4: If the desired position is valid (i.e., current.next != null):
+
+		Set current.next = current.next.next.
+	Step 5: End.

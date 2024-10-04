@@ -1,0 +1,15 @@
+Delete a Node After a Given Element in a Singly Linked List:- 
+
+	Step 1: Check if the list is empty (i.e., head == null).
+
+		If the list is empty, return an error or handle accordingly.
+
+	Step 2: Traverse the list to find the node with the given element (targetValue).
+
+		current = head and move until current.data == targetValue.
+
+	Step 3: If the target node is found and current.next is not null:
+
+		Set current.next = current.next.next to remove the node after the target.
+
+	Step 4: End.

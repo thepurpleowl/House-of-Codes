@@ -1,0 +1,16 @@
+Delete a Node from the End of a Singly Linked List:-
+
+	Step 1: Check if the list is empty (i.e., head == null).
+
+		If the list is empty, return an error or handle accordingly.
+
+	Step 2: If there is only one node (i.e., head.next == null):
+
+		Set head = null to remove the only node
+
+	Step 3: If the list contains more than one node:
+
+		- Traverse the list to find the second-to-last node (i.e., the node where current.next.next == null).
+		- Set current.next = null.
+
+	Step 4: End.
