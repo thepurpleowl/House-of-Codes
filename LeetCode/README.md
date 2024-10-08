@@ -15,6 +15,7 @@
 - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 - [Longest Substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [Lowest Common Ancestor Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
 - [Maximum SubArray](https://leetcode.com/problems/maximum-subarray/)
 - [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 - [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)
