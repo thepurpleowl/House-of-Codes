@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int longestPalindromeSubseq(string s) {
+    int longestPalindromeSubseq(const string& s) {
         int n = s.length();
         int t[n+1][n+1];
         for(int i=0;i<n+1;i++){
