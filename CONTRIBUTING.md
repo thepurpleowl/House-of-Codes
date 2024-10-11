@@ -19,7 +19,7 @@ DOs
 -------
 1. Whenever you add a code in any subdirectory, update the README of that specific directory with the problem link.
 2. If you think there is a mistake OR you've a better/alternate solution, create an issue, assign to self, and raise a PR.
-3. Raise a new issue, assign to self, and implement for tasks related to a `collective_issue`.
+3. Raise a new issue, assign to self, and implement for new tasks.
 4. Nomeclature of files should be as follows   
     **(PROBLEM_CODE)\_(EVENT_CODE).(FILE_TYPE)**
     
@@ -37,16 +37,15 @@ Suggestions
 
 DON'Ts
 -------
-1. Don't work directly on a `collective_issue`.
-2. Don't raise a PR with a solution if the competition with the problem is still going on.  
+1. Don't raise a PR with a solution if the competition with the problem is still going on.  
 3. Make sure the problem haven't been solved yet. If it's already present, please don't add a duplicate.
 4. Only algorithm implementations will be accepted, including pseudo code or theoretical resources are not the objective of this repo.
 
 ------------------
-collective_issue
+Note
 ------------------
-There are a few issue marked as `collective_issue`. A `collective_issue` represents a whole class of tasks (issues) and are broad in nature. They exist to add visibility to tasks that would be missed otherwise.   
+There were a few issue marked as `collective_issue`. A `collective_issue` represents a whole class of tasks (issues) and are broad in nature. They were added for visibility to tasks that would be missed otherwise. For example -
+- One might be interested in fixing SAST scan alerts for only python language (related to `colletive_issue`: [Remove SAST scan issues](https://github.com/thepurpleowl/House-of-Codes/issues/43)).
+- One might be interested in adding string search algos (related to `colletive_issue`: [ Add common algos in Basics folder](https://github.com/thepurpleowl/House-of-Codes/issues/8)).
 
-Hence to work on realted tasks, one should create a new issue, assign to self and raise a PR. For example -
-- One might be interested in fixing SAST scan alerts for only python language (related to `colletive_issue`: [Remove SAST scan issues](https://github.com/thepurpleowl/House-of-Codes/issues/43)), then one can create a new issue "Fixing python SAST issues" and work upon that.
-- One might be interested in adding string search algos (related to `colletive_issue`: [ Add common algos in Basics folder](https://github.com/thepurpleowl/House-of-Codes/issues/8)), then one can create a new issue "Adding string search algos in basic dir" and complete the issue.
+*Removing `collective_issues` to avoid confusion.*
