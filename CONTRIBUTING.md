@@ -44,8 +44,8 @@ DON'Ts
 ------------------
 Note
 ------------------
-There were a few issue marked as `collective_issue`. A `collective_issue` represents a whole class of tasks (issues) and are broad in nature. They were added for visibility to tasks that would be missed otherwise. For example -
+There were a few issues marked as `collective_issue`. A `collective_issue` represents a whole class of tasks (issues) and are broad in nature. They were added for visibility to tasks that would be missed otherwise. For example -
 - One might be interested in fixing SAST scan alerts for only python language (related to `colletive_issue`: [Remove SAST scan issues](https://github.com/thepurpleowl/House-of-Codes/issues/43)).
 - One might be interested in adding string search algos (related to `colletive_issue`: [ Add common algos in Basics folder](https://github.com/thepurpleowl/House-of-Codes/issues/8)).
 
-*Removing `collective_issues` to avoid confusion.*
+*`collective_issues` are removed to avoid confusion.*
