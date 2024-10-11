@@ -1,26 +1,52 @@
 # Contribution
 
+Following Platform Folders are present in the repo.  
+      - HackerEarth    
+      - HackerRank   
+      - CodeChef    
+      - CodeForce    
+      - SPOJ  
+      - OpenKattis   
+In case of new platform, please add the platform to the list and create a new subdirectory with that platform name. 
+
+*Please once check the repo directory structure, rest would be intuitive.* 
+
+------------------
+
 PRs would be accepted only if the following guidelines are followed.
 
-1. Don't raise a PR with a solution if the competition with the problem is still going on.
-2. Make sure the problem haven't been solved yet. If it's already present, please don't add a duplicate.  
-   **Whenever you add a code in any subdirectory, update the README of that specific directory with the problem link.**
-3. If you think there is a mistake OR you've a better solution, create an issue, and it'll be assigned to you to work upon.
+DOs
+-------
+1. Whenever you add a code in any subdirectory, update the README of that specific directory with the problem link.
+2. If you think there is a mistake OR you've a better/alternate solution, create an issue, assign to self, and raise a PR.
+3. Raise a new issue, assign to self, and implement for tasks related to a `collective_issue`.
 4. Nomeclature of files should be as follows   
     **(PROBLEM_CODE)\_(EVENT_CODE).(FILE_TYPE)**
     
     For example [Split Stones](https://www.codechef.com/LTIME62B/problems/SPLST) problem the file name should be     
     **SPLST\_LTIME62B.java**  
     
-    Problem code, problem description and event code can be found on problem page. In case of practice question/ no event, event code should be NE : NO_EVENT. For example
-    **(PROBLEM_CODE)\_NE.(FILE_TYPE)**
-5. In case of new platform, please add the platform name as an entry in CONTRIBUTING.md point 5 and create a new subdirectory with that platform name.
-Please once check the repo directory structure, rest would be intuitive.  
-Currently following Platform Folders are present.
-      - HackerEarth    
-      - HackerRank   
-      - CodeChef    
-      - CodeForce    
-      - SPOJ  
-      - OpenKattis 
-6. Code is maintained with [Codacy](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/dashboard?branch=master). Please check for [issues](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/issues/index?bid=20499451) raised by your PR and try to mitigate those. You can do it with same PR; no need to raise another PR.
+    Problem code, problem description and event code can be found on problem page. In case of practice question/ no event, event code chould be NE OR left blank : NO_EVENT. For example
+    **(PROBLEM_CODE)\_NE.(FILE_TYPE)** / **(PROBLEM_CODE).(FILE_TYPE)**
+5. Code is maintained with [Codacy](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/dashboard?branch=master). Please check for [issues](https://app.codacy.com/gh/thepurpleowl/House-of-Codes/issues/index?bid=20499451) raised by your PR and try to mitigate those. You can do it with same PR; no need to raise another PR.
+
+Suggestions
+-----------
+1. Keep commit messages specific to an issue. Enables reviewer to review the PR efficiently. For example, if wokring on issue #34, consider a commit message like -  
+    **Issue #34: Add xyz algo**
+
+DON'Ts
+-------
+1. Don't work directly on a `collective_issue`.
+2. Don't raise a PR with a solution if the competition with the problem is still going on.  
+3. Make sure the problem haven't been solved yet. If it's already present, please don't add a duplicate.
+4. Only algorithm implementations will be accepted, including pseudo code or theoretical resources are not the objective of this repo.
+
+------------------
+collective_issue
+------------------
+There are a few issue marked as `collective_issue`. A `collective_issue` represents a whole class of tasks (issues) and are broad in nature. They exist to add visibility to tasks that would be missed otherwise.   
+
+Hence to work on realted tasks, one should create a new issue, assign to self and raise a PR. For example -
+- One might be interested in fixing SAST scan alerts for only python language (related to `colletive_issue`: [Remove SAST scan issues](https://github.com/thepurpleowl/House-of-Codes/issues/43)), then one can create a new issue "Fixing python SAST issues" and work upon that.
+- One might be interested in adding string search algos (related to `colletive_issue`: [ Add common algos in Basics folder](https://github.com/thepurpleowl/House-of-Codes/issues/8)), then one can create a new issue "Adding string search algos in basic dir" and complete the issue.
