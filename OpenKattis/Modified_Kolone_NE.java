@@ -13,8 +13,7 @@ class Main {
 
         // Read and validate the number of swaps
         int second = readValidInteger(scanner, "Enter the number of swaps:");
-
-        // Build the result with reversed first row
+       
         final StringBuilder result = new StringBuilder(firstRow);
         result.reverse();
         result.append(secondRow);
