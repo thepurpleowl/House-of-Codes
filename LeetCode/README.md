@@ -1,4 +1,5 @@
 # Link of problems to available LeetCode solutions
+
 - [3Sum](https://leetcode.com/problems/3sum/)
 - [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
@@ -32,6 +33,7 @@
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
 - [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - [Two Sum](https://leetcode.com/problems/two-sum/)
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
