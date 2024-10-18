@@ -1,0 +1,34 @@
+name: PR Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run Tests
+        run: mvn test
+
+      - name: Lint Code
+        run: mvn checkstyle:check
+
+      - name: Notify Reviewers
+        uses: peter-evans/notify-reviewers@v1
+        with:
+          reviewers: 'your-github-username' 
+          message: 'A new PR is ready for review. Please take a look!'
+
