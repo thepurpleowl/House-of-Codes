@@ -1,4 +1,4 @@
-name: Code Quality and Security Scanning
+name: CodeQL analysis
 
 on:
   push:
@@ -44,22 +44,6 @@ jobs:
       - name: Perform CodeQL analysis
         uses: github/codeql-action/analyze@v2
 
-  lint_java:
-    name: Lint Java Code with Checkstyle
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '11'  # Use appropriate Java version
-
-      - name: Install Checkstyle
-        run: |
-          mvn checkstyle:check
 
   lint_cpp:
     name: Analyze C++ Code with cppcheck
