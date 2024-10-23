@@ -1,0 +1,60 @@
+name: CodeQL analysis
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  codeql:
+    name: Analyze (CodeQL)
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    strategy:
+      matrix:
+        language: [ 'java', 'cpp' ]  # Adjust based on the languages in the repo
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: ${{ matrix.language }}
+
+      - name: Autobuild for Java
+        if: matrix.language == 'java'
+        run: |
+          mvn clean install
+
+      - name: Build for C++
+        if: matrix.language == 'cpp'
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+
+      - name: Perform CodeQL analysis
+        uses: github/codeql-action/analyze@v2
+
+
+  lint_cpp:
+    name: Analyze C++ Code with cppcheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install cppcheck
+        run: sudo apt-get install cppcheck
+
+      - name: Run cppcheck on C++ code
+        run: |
+          cppcheck --enable=all --inconclusive --error-exitcode=1 .
