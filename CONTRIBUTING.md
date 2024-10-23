@@ -41,6 +41,7 @@ DON'Ts
 3. Make sure the problem haven't been solved yet. If it's already present, please don't add a duplicate.
 4. Only algorithm implementations will be accepted, including pseudo code or theoretical resources are not the objective of this repo.
 
+<!-----
 ------------------
 Note
 ------------------
@@ -49,3 +50,4 @@ There were a few issues marked as `collective_issue`. A `collective_issue` repre
 - One might be interested in adding string search algos (related to `colletive_issue`: [ Add common algos in Basics folder](https://github.com/thepurpleowl/House-of-Codes/issues/8)).
 
 *`collective_issues` are removed to avoid confusion.*
+------->
