@@ -1,0 +1,17 @@
+name: C++ Tests
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: sudo apt-get install g++ -y
+      - name: Compile C++ files
+        run: |
+          g++ -o output main.cpp   # Replace 'main.cpp' with the main C++ file(s) in the repo
+      - name: Run C++ tests
+        run: ./output
